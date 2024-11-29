@@ -1,0 +1,81 @@
+#containerMi{
+    /* background-color: #fff; */
+    max-width: 50%;
+}
+h1{
+    
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+h5{ 
+    color: #fff;
+    margin-top: 1em;
+    text-align: center;
+}
+#hola{
+    color: #ffffff;
+    font-size: 1.4em;
+}
+
+#linkkMi{
+    margin-top: 1em;
+    text-align: center;
+}
+
+#linkkMi ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+
+
+#linkkMi ul li{
+    margin-right: 1.4em;
+}
+
+#linkkMi ul a{
+    text-decoration: none;
+    margin-right: 1.5em;
+    color: #d1d1d1c5;
+}
+
+#instagram:hover{
+    background: linear-gradient(45deg, #bc1888, #cc2366, #dc2743, #e6683c, #f09433);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    transition: all 0.3s ease; 
+    scale: 1.1;
+}
+
+#github:hover{
+    color: #fff;
+    scale: 1.1;
+    transition: all 0.3s ease;
+}
+
+#linkedin:hover{
+    background: linear-gradient(45deg, #0077b5, #00a0dc);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  scale: 1.1;
+  transition: all 0.3s ease;
+}
+
+.btn{
+    margin-top: 1em;
+    background: linear-gradient(90deg, #6cc7ff91, #00a0fdb6);
+    color: white;
+}
+
+.btn:hover{
+    background: linear-gradient(90deg,#009FFD, #6C63FF);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
