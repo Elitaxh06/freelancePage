@@ -1,0 +1,34 @@
+.card{
+    background-color: #727272;
+    
+    max-height: 50%;
+}
+
+.card-body{
+    background-color: #727272;
+    
+}
+
+.card-footer{
+    background-color: #727272;
+}
+
+#btn-what{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#btn-what li:hover{
+    color: rgb(87, 111, 231);
+    
+}
+
+#btn-correo{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#btn-correo li:hover{
+    color: rgb(87, 111, 231);
+    
+}

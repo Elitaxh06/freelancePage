@@ -2,9 +2,9 @@ import './Contratarme.css'
 import imagen1 from '../../assets/img/foto1.jpeg'
 function Contratarme() {
   return (
-      <section className='container marketing mt-5'>
+      <section id='sectionCon' className='container marketing mt-5'>
         <div className='container my-5'>
-          <div className='row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-4 border shadow-lg'>
+          <div id='rowTodo' className='row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-4 border shadow-lg'>
           <h2>Lleva tu Negocio al Siguiente Nivel</h2>
             <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
               <h4 className=''>Transformo ideas en experiencias digitales que impulsan tu negocio</h4>
