@@ -1,17 +1,46 @@
+#containerPrecios{
+    background: linear-gradient(180deg,#00000000, #070707 );
+}
+h3{
+    margin-top: .6em;
+    text-align: center;
+    color: #ffffffe5;
+    font-weight: bold;
+    font-size: 2.3em;
+}
+h3:hover{
+    color: #fff;
+}
 .card{
-    background-color: #727272;
-    
+    margin-top: 3em;
+    background-color: #41383849;
+    color: #fff;
     max-height: 50%;
+}
+.card-header{
+    background-color: #ffffff3f;
+    border: solid 1px #ccc;
 }
 
 .card-body{
-    background-color: #727272;
-    
+    /* background-color: #1a1919;
+     */
+    background: linear-gradient(180deg,#222121, #070707 );
+
+    color: #fff;
 }
 
+.card-text{
+    color: #fff;
+}   
+
 .card-footer{
-    background-color: #727272;
+    background-color: #ffffff3f;
+    border-top: solid 1px #ccc;
+    color: #fff;
 }
+
+
 
 #btn-what{
     color: #ffffff;
@@ -31,4 +60,18 @@
 #btn-correo li:hover{
     color: rgb(87, 111, 231);
     
+}
+
+p span{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+p{
+    color: #ffffffd5;
+}
+
+#plazo{
+    font-weight: bold;
+    color: #ffffff;
 }

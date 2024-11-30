@@ -1,31 +1,35 @@
 import './Precios.css'
-
+import { Header } from '../header/Header'
 function Precios(){
     
     return(
         <div className='container-fluid' id='containerPrecios'> {/* Inicio del container */}
+            <Header/>
             <h3>Servicios / Precios</h3>
             <div className='row'> {/* Inicio de la fila */}
     
                 <div className='col-6'>  {/* Inicio de columna 1 */}
-    
                     <div className='card'>   {/* Inicio de la tarjeta 1 */}
                         <div className='card-header'> {/* Header de la tarjeta 1 */}
                             <h4 className='card-title'>Paquete Básico</h4>
                         </div> {/* Fin del header de la tarjeta 1 */}
                         <div className='card-body'> {/* Contenido de la tarjeta 1 */}
-                            <p className='card-text'><span>Incluye:</span><br />
+                            <div className='card-text'>
+
+                                <p className='lead'><span>Incluye:</span><br />
                                 1. De 3 a 5 secciones estáticas: Inicio, Servicios, Contacto, etc. <br />
                                 2. Diseño responsivo: Perfecto para cualquier dispositivo.  <br />
                                 3. Optimizacion básica para SEO: Mayor visibilidad en Google.   <br />
                                 4. Formulario de contacto: Facilita la comunicación con el cliente.  <br />
-                            </p>
+                                </p>
+                                <p className='lead'><span>Costo: </span> <br /> 25,000 colones</p> <br />
+                                <p className='lead'><span>Metodos de Pago:</span><br /> Transferencia Bancaria <br />Simpe Movil <br />PayPal</p>
+                                <p className='lead'><span>Pago en dos Partes:</span> <br /> 50% al iniciar el proyecto <br /> 50% al finalizar el proyecto</p>
+                            </div>
+                           
                         </div> {/* Fin del contenido de la tarjeta 1 */}
                         <div className='card-footer'> {/* Footer de la tarjeta 1 */}
-                            <p><span>Costo: </span> <br /> 25,000 colones</p> <br />
-                            <p>Metodos de Pago: <br /> Transferencia Bancaria <br />Simpe Movil <br />PayPal</p>
-                            <p>Pago en dos Partes: <br /> 50% al iniciar el proyecto <br /> 50% al finalizar el proyecto</p>
-                            <p>Plazo de entrega: 1 a 4 semanas (dependiendo de las funcionalidades)</p>
+                            <p id='plazo'>Plazo de entrega: 1 a 4 semanas (dependiendo de las funcionalidades)</p>
                         </div> {/* Fin del footer de la tarjeta 1 */}
                     </div> {/* Fin de la tarjeta 1 */}
 
@@ -37,7 +41,7 @@ function Precios(){
                             <h4 className='card-title'>Opciones Adicionales</h4>
                         </div> {/* Fin del header de la tarjeta 2 */}
                         <div className='card-body'> {/* Contenido de la tarjeta 2 */}
-                            <p>Mantenimiento continuo: + 15,000 colones (cada mantenimiento) <br />Botones para compartir en redes sociales: +5,000 colones <br />Optimización de imágenes: +5,000 colones <br />Diseño de logotipo básico: +15,000 colones</p>
+                            <p className='lead'><span>Mantenimiento continuo:</span> + 15,000 colones (cada mantenimiento) <br /><span>Botones para compartir en redes sociales:</span> +5,000 colones <br /><span>Optimización de imágenes:</span> +5,000 colones <br /><span>Diseño de logotipo básico:</span> +15,000 colones</p>
                         </div> {/* Fin del contenido de la tarjeta 2 */}
                         <div className='card-footer'> {/* Footer de la tarjeta 2 */}    
                             <p>Hola</p>

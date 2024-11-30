@@ -1,4 +1,4 @@
-import {SobreMi} from './../aboutMe/SobreMi'
+import { Link } from 'react-router-dom';
 import './Header.css'
 function Header() {
   return (
@@ -7,10 +7,16 @@ function Header() {
           <div className='row'>
             <div className='col-12'>
              <ul>
-               <a href="#">Inicio</a>
-               <a href="#">Contactame</a>
-               <a href="#">Servicios/Precios</a>
-             </ul>    
+                <Link className='links' to='/'>
+                    <li>Inicio</li>
+                </Link>
+                <Link className='links' to='/precios'>
+                  <li>Precios</li>
+                </Link>
+                <Link className='links' to='/contacto'>
+                  <li>Contacto</li>
+                </Link>
+              </ul>
             </div>
           </div>
         </header>

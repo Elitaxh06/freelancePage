@@ -1,3 +1,6 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 import './Servicio.css'
 
 function Servicios(){
@@ -23,10 +26,14 @@ function Servicios(){
             </ul>
             <div id='rowButtons' className='row'>
                 <div className='buttons col-12 col-md-6'>
-                    <button className='col-12'>Mas Información</button>
+                    <Link to='/precios'>
+                        <button className='col-12'>Mas Información</button>
+                    </Link>
                 </div>
                 <div className="buttons col-12 col-md-6">
-                    <button className='col-12'>Contactame</button>
+                    <Link to='/contacto'>
+                        <button className='col-12'>Contactame</button>
+                    </Link>
                 </div>
             </div>
         </div>

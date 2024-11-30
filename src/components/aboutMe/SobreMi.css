@@ -1,9 +1,8 @@
 #containerMi{
-    /* background-color: #fff; */
     max-width: 50%;
 }
-h1{
-    
+#containerMi h1{
+    color: #aaaaaae3;
     margin-top: 0.5em;
     text-align: center;
     font-size: 1.5em;
@@ -72,10 +71,12 @@ h5{
     margin-top: 1em;
     background: linear-gradient(90deg, #6cc7ff91, #00a0fdb6);
     color: white;
+
 }
 
 .btn:hover{
     background: linear-gradient(90deg,#009FFD, #6C63FF);
+    color: #fff;
     transform: scale(1.05);
     transition: all 0.3s ease;
 }

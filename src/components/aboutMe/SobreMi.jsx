@@ -13,7 +13,6 @@ function SobreMi() {
               <a target='_blank' href="https://www.instagram.com/esteban_pizarro25/"><li id='instagram'>Instagram</li></a>
               <a target='_blank' href="https://github.com/elitaxh06"><li id='github'>Github</li></a>
               <a target='_blank' href="https://www.linkedin.com/in/esteban-pizarro-5897362a9/"><li id='linkedin'>Linkedin</li></a>
-
             </ul>
             <a href="https://elitaxh06.github.io/elitaxh-portfolio/" target='_blank'>
               <button className='btn'>Mi Portafolio</button>
