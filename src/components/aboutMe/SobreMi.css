@@ -92,3 +92,10 @@ h5{
 #linki{
     width: 1.1em;
 }
+
+
+@media (max-width: 520px){
+    #containerMi{
+        max-width: 100%;
+    }
+}

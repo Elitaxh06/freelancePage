@@ -114,3 +114,14 @@ aside{
     scale: (1.4);
     transition: all 0.4s ease;
 }
+
+@media(max-width: 520px){
+    #btn-what button{
+        margin-left: 1.2em;
+        margin-bottom: -1em;
+    }
+    
+    #btn-correo button{
+        margin-right: 1em;        
+    }
+}

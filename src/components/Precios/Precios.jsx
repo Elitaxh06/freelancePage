@@ -82,7 +82,8 @@ function Precios(){
                         <button className='btn btn-primary btn-sm fw-bold'>📞 WhatsApp: +506 83745485 </button>
                     </a>
                     <a id='btn-correo' href="mailto:pizarroteb06@outlook.com?subject=Interesado%20en%20tus%20servicios&body=Hola%2C%20quisiera%20más%20información%20sobre%20tus%20servicios">
-                        <button className='btn btn-primary btn-sm fw-bold'>📧 Correo: pizarroteb@gmail.com </button></a>
+                        <button className='btn btn-primary btn-sm fw-bold'>📧 Correo: pizarroteb@gmail.com </button>
+                    </a>
                     <br />
                     <Link id='end-service' to='/contacto'>
                         <span className='lead'>¡Comienza ahora para llevar tu negocio al instante!</span>
