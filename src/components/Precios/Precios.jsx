@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom';
+import React from 'react';
 import './Precios.css'
 import { Header } from '../header/Header'
 function Precios(){
-    
+    React.useEffect(()=>{
+        window.scrollTo(0,0) // para que al cambiar de página se quede en la parte superior
+    }) 
     return(
         <div className='container-fluid' id='containerPrecios'> {/* Inicio del container */}
             <Header/>
