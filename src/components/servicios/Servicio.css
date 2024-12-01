@@ -9,11 +9,16 @@ h1{
 }
 
 ul p {
-    color: #fff;
+    color: #ffffffde;
+    font-weight: bold;
 }
 
-
+#solutions{
+    margin-top: 2em;
+    color: #ffffff96;
+}
 ul{
+    margin-top: 2em;
     list-style: none;
 }
 
@@ -37,7 +42,7 @@ ul{
     
 }
 
-button{
+#moreInfo{
     text-wrap: wrap;
     background-color: #47426d;
     color: #ffffff;
@@ -52,7 +57,7 @@ button{
     transition: background-color 0.3s, transform 0.3s ease;
 }
 
-button:hover {
+#moreInfo:hover {
     background-color: #4e4bff; 
     transform: translateY(-3px);  
 }
@@ -64,4 +69,9 @@ button:hover {
 span{
     color: #fff;
 }
+
+.btn {
+    margin-bottom: 2.5em;
+}
+
 

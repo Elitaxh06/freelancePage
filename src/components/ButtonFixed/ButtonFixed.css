@@ -1,0 +1,23 @@
+#fixed-what{
+    position: fixed;
+    bottom: 50%;
+    left: 94%;
+
+
+}
+
+#svg-fixed{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+#fixed-what:hover{
+    transform: scale(1.4);
+    transition: all 0.4s ease;
+}
+
+@media (max-width: 600px){
+    #fixed-what{
+        left: 88%;
+    }
+}

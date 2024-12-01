@@ -17,20 +17,21 @@ header ul {
 }
 
 header ul li {
-    margin-right: 1em;
+    margin-right: 1.5em;
     color: rgb(179, 179, 179);
 }
 
 header ul {
     list-style-type: none;
     text-align: center;
-    border: 1px solid #ccc;
+    border: 2px solid #25D366;
     border-radius: 15px;
     margin-top: 1.2em;
     
 }
 
 li:hover{
-    scale: 1.1;
+    scale: 1.2;
     color: #fff;
+    transition: all 0.3s ease;
 }

@@ -1,4 +1,68 @@
-h1{
+#contacto{  
+    
+    height: 100vh;
+}
+
+#contact{
+    margin-top: 2em;
+}
+#header-contact{
     margin-top: 1em;
     text-align: center;
 }
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+
+
+#social-contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+#social-contact a{
+    margin-top: .6em;
+    text-decoration: none;
+    color: #ffffffbe;
+}
+
+#social-contact a:hover{
+    color: #fff
+}
+
+#contact-form a{
+    margin-top: .6em;
+    text-decoration: none;
+    color: #ffffffbe;
+}
+
+#contact-form a:hover{
+    color: #fff
+}
+
+a svg{
+    width: 1.2em;
+    height: 1.4em;
+    margin-left: 1em;
+
+}
+
+#contact-instagram{
+    width: 1.5em;
+}
+
+#contact-github{
+    width: 1.2em;
+}
+
+#contact-linkedin{
+    width: 1.2em;
+}
+

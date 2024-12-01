@@ -2,7 +2,7 @@
     max-width: 50%;
 }
 #containerMi h1{
-    color: #aaaaaae3;
+    color: #ffffffa0;
     margin-top: 0.5em;
     text-align: center;
     font-size: 1.5em;
@@ -11,7 +11,7 @@
 
 h5{ 
     color: #fff;
-    margin-top: 1em;
+    margin-top: 1.5em;
     text-align: center;
 }
 #hola{
@@ -20,7 +20,7 @@ h5{
 }
 
 #linkkMi{
-    margin-top: 1em;
+    margin-top: -1em;
     text-align: center;
 }
 
@@ -79,4 +79,16 @@ h5{
     color: #fff;
     transform: scale(1.05);
     transition: all 0.3s ease;
+}
+
+#insta{
+    width: 1.6em;
+}
+
+#git{
+    width: 1.4em;
+}
+
+#linki{
+    width: 1.4em;
 }

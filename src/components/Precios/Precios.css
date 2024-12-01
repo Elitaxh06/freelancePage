@@ -1,6 +1,6 @@
-#containerPrecios{
-    background: linear-gradient(180deg,#00000000, #070707 );
-}
+/* #containerPrecios{
+    background: linear-gradient(180deg,#0000006b, #46444485 );
+} */
 h3{
     margin-top: .6em;
     text-align: center;
@@ -23,9 +23,7 @@ h3:hover{
 }
 
 .card-body{
-    /* background-color: #1a1919;
-     */
-    background: linear-gradient(180deg,#222121, #070707 );
+    background: linear-gradient(180deg,#464343, #1d1c1c );
 
     color: #fff;
 }
@@ -40,27 +38,23 @@ h3:hover{
     color: #fff;
 }
 
-
-
 #btn-what{
     color: #ffffff;
-    text-decoration: none;
-}
-
-#btn-what li:hover{
-    color: rgb(87, 111, 231);
     
 }
+
+h4{
+    font-size: 2em;
+}
+
+
+
 
 #btn-correo{
     color: #ffffff;
-    text-decoration: none;
-}
-
-#btn-correo li:hover{
-    color: rgb(87, 111, 231);
     
 }
+
 
 p span{
     color: #ffffff;
@@ -74,4 +68,49 @@ p{
 #plazo{
     font-weight: bold;
     color: #ffffff;
+}
+
+
+
+#descuentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-top: 3em;
+    text-align: center;
+    max-width: auto;
+    
+}
+
+
+
+aside{
+    margin-top: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+
+#btn-what button{
+    margin-top: 2em;
+    margin-right: 1em;
+}
+
+#btn-correo button{
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+#end-service{
+    text-decoration: none;
+}
+
+#end-service span:hover{
+    font-size: 1.3em;
+    color: red;
+    scale: (1.4);
+    transition: all 0.4s ease;
 }
