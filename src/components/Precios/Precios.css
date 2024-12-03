@@ -110,7 +110,7 @@ aside{
 
 #end-service span:hover{
     font-size: 1.3em;
-    color: red;
+    color: rgb(179, 16, 220);
     scale: (1.4);
     transition: all 0.4s ease;
 }

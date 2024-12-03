@@ -67,7 +67,7 @@ function Precios(){
                         <p><span>Descuento por Referencia</span><br />5% de descuento si me refieres a otro cliente.  ¡Ayúdame a crecer y recibe un descuento en tu próximo proyecto!</p>
                         <p><span>Descuento por inclusión en Portafolio</span><br />5% de descuento si permites que tu sitio web sea parte de mi portafolio.</p>
                         <p><span>Descuento por Servicio Adicional</span><br /> 5% de descuento por cada servicio adicional que agregues a tu paquete.</p>                
-                        <p><span>Descuento por </span></p>
+                            {/* <p><span>Descuento por </span></p> */}
                     </div>
                     <div className='card-footer'>
                         <p className='lead fw-bold'>El Máximo descuento aplicable es del 25%</p>
@@ -86,7 +86,7 @@ function Precios(){
                     </a>
                     <br />
                     <Link id='end-service' to='/contacto'>
-                        <span className='lead'>¡Comienza ahora para llevar tu negocio al instante!</span>
+                        <span className='lead'>¡No esperes más! Lleva tu negocio al mundo digital.</span>
                     </Link>
             </aside>
 

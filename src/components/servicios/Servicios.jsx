@@ -11,17 +11,17 @@ function Servicios(){
             <ul>
                 <li className='li'>
                     <p id="design">1. Diseño Web Personalizado</p>
-                    <span>🌐 Descripcion:</span> Creación de sitios web modernos y funcionales que se adaptan completamente a las necesidades de tu negocio. Trabajo en estrecha colaboración contigo para enteder tu visión y garantizar que tu página refleje la identidad de tu marca.
+                    <span>🌐 Descripción:</span> Creación de sitios web modernos y funcionales que se adaptan completamente a las necesidades de tu negocio. Trabajo en estrecha colaboración contigo para enteder tu visión y garantizar que tu página refleje la identidad de tu marca.
                 </li>
                 <br />
                 <li className='li'> 
                     <p id="opt">2. Optimización para Motores de Búsqueda (SEO)</p>
-                    <span>📈 Descripcion:</span> Me aseguro de que tu sitio web esté optimzado para los motores de búsqueda, mejorando su visibilidad en Google y otros buscadores. Esto incrementa tus oportunidades de ser encontrado por los clientes potenciales.
+                    <span>📈 Descripción:</span> Me aseguro de que tu sitio web esté optimizado para los motores de búsqueda, mejorando su visibilidad en Google y otros buscadores. Esto incrementa tus oportunidades de ser encontrado por los clientes potenciales.
                 </li>
                 <br />
                 <li className='li'>
                     <p id="responsive">3. Diseño Responsivo</p>
-                    <span>💻 Descripcion:</span> Garantizo que tu sitio web funcione perfectamente en todos los dispositivos, desde móviles hasta computadoras de escritorio. Esto asegura una experiencia de usuario fluida y sin problemas, sin importar el dispositivo.
+                    <span>💻 Descripción:</span> Garantizo que tu sitio web funcione perfectamente en todos los dispositivos, desde móviles hasta computadoras de escritorio. Esto asegura una experiencia de usuario fluida y sin problemas, sin importar el dispositivo.
                 </li>
             </ul>
             <div id='rowButtons' className='row'>
