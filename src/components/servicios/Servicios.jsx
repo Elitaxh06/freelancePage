@@ -26,16 +26,10 @@ function Servicios(){
             </ul>
             <div id='rowButtons' className='row'>
                 <div className='buttons col-12 col-md-6'>
-                    <Link to='/precios'>
-                  <button id='moreInfo' type="button" className="btn btn-primary btn-md px-4 fw-bold">Mas Información</button>
-                        
-                    </Link>
+                    <Link to='/precios' className="btn btn-primary btn-md px-4 fw-bold moreInfo">Mas información</Link>
                 </div>
                 <div className="buttons col-12 col-md-6">
-                    <Link to='/contacto'>
-                  <button id='moreInfo' type="button" className="btn btn-primary btn-md px-4 fw-bold">Contactame</button>
-                        
-                    </Link>
+                    <Link to='/contacto' className='btn btn-primary btn-md px-4 fw-bold moreInfo' >Contacto</Link>
                 </div>
             </div>
         </div>

@@ -3,6 +3,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 header ul {
@@ -14,6 +15,7 @@ header ul {
 
 .links{
     text-decoration: none;
+    color: #ffffffbe;
 }
 
 header ul li {
@@ -32,6 +34,11 @@ header ul {
 
 li:hover{
     scale: 1.2;
-    color: #fff;
     transition: all 0.3s ease;
+}
+
+.links:hover{
+    scale: 1.2;
+    transition: all 0.3s ease;
+    color: #fff;
 }

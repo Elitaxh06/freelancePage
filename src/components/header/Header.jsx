@@ -7,15 +7,9 @@ function Header() {
           <div className='row'>
             <div className='col-12'>
              <ul>
-                <Link className='links' to='/'>
-                    <li>Inicio</li>
-                </Link>
-                <Link className='links' to='/precios'>
-                  <li>Precios</li>
-                </Link>
-                <Link className='links' to='/contacto'>
-                  <li>Contacto</li>
-                </Link>
+                <li><Link className='links' to='/'>Inicio</Link></li>
+                <li><Link className='links' to='/precios'>Precios</Link></li>
+                <li><Link className='links' to='/contacto'>Contacto</Link></li>
               </ul>
             </div>
           </div>

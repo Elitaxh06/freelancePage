@@ -27,7 +27,7 @@ function Precios(){
                                 3. Optimizacion básica para SEO: Mayor visibilidad en Google.   <br />
                                 4. Metodo de Contacto Directo: Facilita la comunicación con el cliente.  <br />
                                 </p>
-                                <p className='lead'><span>Costo: </span> <br /> 25,000 colones</p> <br />
+                                <p className='lead'><span>Costo: </span> <br /> $80 USD</p> <br />
                                 <p className='lead'><span>Metodos de Pago:</span><br /> Transferencia Bancaria <br />Simpe Movil <br />PayPal</p>
                                 <p className='lead'><span>Pago en dos Partes:</span> <br /> 50% al iniciar el proyecto <br /> 50% al finalizar el proyecto</p>
                             </div>
@@ -46,7 +46,7 @@ function Precios(){
                             <h4 className='card-title'>Opciones Adicionales</h4>
                         </div> {/* Fin del header de la tarjeta 2 */}
                         <div className='card-body'> {/* Contenido de la tarjeta 2 */}
-                            <p className='lead'><span>Mantenimiento continuo:</span> + 15,000 colones (cada mantenimiento) <br /><span>Botones para compartir en redes sociales:</span> +5,000 colones <br /><span>Optimización de imágenes:</span> +5,000 colones <br /><span>Diseño de logotipo básico:</span> +15,000 colones</p>
+                            <p className='lead'><span>Mantenimiento continuo:</span> $30 USD (cada mantenimiento) <br /><span>Botones para compartir en redes sociales:</span> $10 USD <br /><span>Optimización de imágenes:</span> $10 USD <br /><span>Diseño de logotipo básico:</span> $30 USD</p>
                         </div> {/* Fin del contenido de la tarjeta 2 */}
                         <div className='card-footer'> {/* Footer de la tarjeta 2 */}    
                             
@@ -77,13 +77,12 @@ function Precios(){
 
             <aside>
                 <h4 id='interest'>¿Interesado?</h4>
-                
-                    <a id='btn-what' href="https://wa.me/50683745485?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios" target="_blank">
-                        <button className='btn btn-primary btn-sm fw-bold'>📞 WhatsApp: +506 83745485 </button>
-                    </a>
-                    <a id='btn-correo' href="mailto:pizarroteb06@outlook.com?subject=Interesado%20en%20tus%20servicios&body=Hola%2C%20quisiera%20más%20información%20sobre%20tus%20servicios">
-                        <button className='btn btn-primary btn-sm fw-bold'>📧 Correo: pizarroteb@gmail.com </button>
-                    </a>
+                    <div id='interesed'>
+
+                    <a id='btn-what' className='btn btn-primary btn-sm fw-bold' href="https://wa.me/50683745485?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios" target="_blank">📞 WhatsApp: +506 83745485 </a>
+                    <a id='btn-correo' className='btn btn-primary btn-sm fw-bold' href="mailto:pizarroteb06@outlook.com?subject=Interesado%20en%20tus%20servicios&body=Hola%2C%20quisiera%20más%20información%20sobre%20tus%20servicios"> 📧 Correo: pizarroteb@gmail.com</a>
+
+                    </div>
                     <br />
                     <Link id='end-service' to='/contacto'>
                         <span className='lead'>¡No esperes más! Lleva tu negocio al mundo digital.</span>

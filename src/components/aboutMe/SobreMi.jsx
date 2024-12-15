@@ -34,9 +34,8 @@ function SobreMi() {
                 </svg> Linkedin</li></a>
 
             </ul>
-            <a href="https://elitaxh06.github.io/elitaxh-portfolio/" target='_blank'>
-              <button className='btn btn-primary btn-lg'>Mi Portafolio</button>
-            </a>
+            
+            <button className='btn btn-primary btn-lg' onClick={()=> window.open('https://elitaxh06.github.io/elitaxh-portfolio/', '_blank')}>👉Portafolio</button>
           </div>
         </div>
       </section>

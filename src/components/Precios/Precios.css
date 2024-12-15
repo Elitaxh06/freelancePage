@@ -40,7 +40,7 @@ h3:hover{
 
 #btn-what{
     color: #ffffff;
-    
+    /* margin-right: 2em; */
 }
 
 h4{
@@ -52,7 +52,7 @@ h4{
 
 #btn-correo{
     color: #ffffff;
-    
+    /* margin-left: 1em; */
 }
 
 
@@ -92,14 +92,16 @@ aside{
     margin-bottom: 2em;
 }
 
+/* #interesed{
+    margin-left: 1em;
+} */
 
-
-#btn-what button{
+#btn-what{
     margin-top: 2em;
     margin-right: 1em;
 }
 
-#btn-correo button{
+#btn-correo{
     margin-top: 2em;
     margin-left: 1em;
 }
@@ -116,12 +118,12 @@ aside{
 }
 
 @media(max-width: 520px){
-    #btn-what button{
+    #btn-what{
         margin-left: 1.2em;
         margin-bottom: -1em;
     }
     
-    #btn-correo button{
+    #btn-correo{
         margin-right: 1em;        
     }
 }

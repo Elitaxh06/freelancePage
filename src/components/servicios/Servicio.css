@@ -47,7 +47,7 @@ ul{
     
 }
 
-#moreInfo{
+.moreInfo{
     text-wrap: wrap;
     background-color: #47426d;
     color: #ffffff;
